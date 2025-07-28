@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loading, #startButton {
+  position: absolute;
+}
+
+#gameCanvas {
+  display: none;
+  background-color: #111;
+}
