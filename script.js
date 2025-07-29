@@ -298,7 +298,7 @@ function drawLevel() {
     
   if (solved) {
     let n = Math.max(0, Math.floor((cooldown / SUCCESS_CYCLE) % 2));
-    drawCentered(successImages[n], canvas.width/2, canvas.height/2);
+    drawCentered(successImages[n], 1920/2, 1080/2);
   }
   
   drawKeysMenu();
